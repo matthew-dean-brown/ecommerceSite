@@ -1,1 +1,22 @@
 /* for styling */
+/* Puts image next to heading */
+header {
+    display: flex;
+    /* justify content  */
+    justify-content: space-between;
+    width: auto;
+}
+
+header img {
+    width: 80px;
+    animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
